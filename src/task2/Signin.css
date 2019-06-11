@@ -1,0 +1,32 @@
+.center {
+    text-align: center;
+    border: 1px solid;
+}
+.box1 {
+    width: 500px;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid rgb(9, 201, 137);
+}
+.button1 {
+    width: 520px;
+    height: 60px;
+    background-color: rgb(9, 201, 137);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 12px;
+}
+.body {
+    width: 500px;
+    background-color: black;
+}
