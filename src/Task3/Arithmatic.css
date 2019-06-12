@@ -1,0 +1,15 @@
+b {
+    color: green;
+    font-size: 50px;
+    margin: 125px;
+}
+button {
+    background-color:rgb(13, 218, 233);
+    height: 50px;
+    border-radius: 50px;
+    border: solid 2px rgb(151, 147, 147);
+    color: red;
+    width: 200px;
+    font-size: 20px;
+    margin:20px 50px;
+}
