@@ -15,6 +15,7 @@ addition=()=>{
     )
 }
 substraction=()=>{
+    if(this.state.sub>0)
     this.setState(
         {sub:this.state.sub =this.state.sub - 5}
     )

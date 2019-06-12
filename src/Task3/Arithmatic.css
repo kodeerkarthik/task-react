@@ -1,15 +1,16 @@
 b {
-    color: green;
+    color: rgb(20, 100, 114);
     font-size: 50px;
     margin: 125px;
 }
 button {
-    background-color:rgb(13, 218, 233);
+    background:radial-gradient(rgb(248, 214, 60),rgb(226, 61, 61));
     height: 50px;
     border-radius: 50px;
     border: solid 2px rgb(151, 147, 147);
-    color: red;
+    color: rgb(19, 122, 100);
     width: 200px;
     font-size: 20px;
     margin:20px 50px;
+    font-weight: bolder;
 }
