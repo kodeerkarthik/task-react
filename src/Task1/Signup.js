@@ -1,6 +1,7 @@
 import React from 'react';
 import './Signup.css';
 import '../App.css';
+import Signin from './Signin';
 
 function Signup() {
   return (
@@ -17,6 +18,7 @@ function Signup() {
             <input type='password' className="box"></input><br></br>
             <input type='button' value='create my account'className="button"></input>
         </div>
+        <Signin/>
         </div>
   );
 }
