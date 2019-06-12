@@ -1,6 +1,6 @@
 import React from 'react';
 import './Signin.css';
-import './App.css';
+import '../App.css';
 
 function Signin() {
   return (
@@ -16,5 +16,4 @@ function Signin() {
     </div>
   );
 }
-
 export default Signin;
