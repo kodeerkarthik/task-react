@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './Arithmatic.css';
 class Arithmatic extends Component {
-    constructor(props){
-    super(props);
-    this.state={
+    // constructor(props){
+    // super(props);
+    state={
         add: 10,
         sub: 10,
         mul: 10
-    };
+    // };
 }
 addition=()=>{
     this.setState(

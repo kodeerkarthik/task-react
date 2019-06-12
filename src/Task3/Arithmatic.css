@@ -1,5 +1,5 @@
 b {
-    color: rgb(20, 100, 114);
+    color: red;
     font-size: 50px;
     margin: 125px;
 }
@@ -13,4 +13,8 @@ button {
     font-size: 20px;
     margin:20px 50px;
     font-weight: bolder;
+}
+div {
+    background:radial-gradient(white,black);
+    padding: 50px 0;
 }
