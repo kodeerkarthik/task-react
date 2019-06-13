@@ -13,9 +13,9 @@ class Event extends Component {
 handleChange=(event) =>{
     this.setState({name: event.target.value});
 }
-handleChange1=(event) =>{
-    this.setState({name1: event.target.value});
-}
+// handleChange1=(event) =>{
+//     this.setState({name1: event.target.value});
+// }
 nameChange=()=>{
     this.setState({name1:this.state.name2})
 }
@@ -26,7 +26,7 @@ render() {
             <h1>{this.state.name}</h1>
             <input class='task4input' type='text' onChange={this.handleChange} ></input>
             <h1>{this.state.name1}</h1>
-            <input class='task4input' type='text' onChange={this.handleChange1} ></input><br></br>
+            <input class='task4input' type='text'value="chiru"></input><br></br>
             <input class='btn' type="button" value="Submit" onClick={this.nameChange} ></input>
         </form>
         );
