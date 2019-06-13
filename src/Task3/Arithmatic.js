@@ -28,12 +28,12 @@ multiplication=()=>{
     render() {
         return (
             <div>
-                <b>{this.state.add}</b>                
-                <b>{this.state.sub}</b>
-                <b>{this.state.mul}</b><br></br>
-                <button onClick={this.addition}>Addition</button>
-                <button onClick={this.substraction}>Substraction</button>
-                <button onClick={this.multiplication}>Multiplication</button>
+                <b class='bld'>{this.state.add}</b>                
+                <b class='bld'>{this.state.sub}</b>
+                <b class='bld'>{this.state.mul}</b><br></br>
+                <button class='btn' onClick={this.addition}>Addition</button>
+                <button class='btn' onClick={this.substraction}>Substraction</button>
+                <button class='btn' onClick={this.multiplication}>Multiplication</button>
             </div>
         );
     }

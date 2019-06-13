@@ -1,0 +1,10 @@
+.task4input {
+    width: 500px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 50px;
+    padding-left: 20px;
+    background: radial-gradient(rgb(235, 167, 103),rgb(167, 224, 92));
+}

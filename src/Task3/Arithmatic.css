@@ -1,9 +1,9 @@
-b {
+.bld {
     color: red;
     font-size: 50px;
     margin: 125px;
 }
-button {
+.btn {
     background:radial-gradient(rgb(248, 214, 60),rgb(226, 61, 61));
     height: 50px;
     border-radius: 50px;
